@@ -1,6 +1,6 @@
 class Solution:
+    # TC --> O(N), SC --> O(N)
     def addSpaces(self, s: str, spaces: List[int]) -> str:
-        # TC --> O(N), SC --> O(N)
         space_index = 0 
         result = []
         for string_index in range(len(s)):
