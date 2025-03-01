@@ -1,6 +1,6 @@
 class Solution:
+    # TC --> O(N), SC --> O(1)
     def areAlmostEqual(self, s1: str, s2: str) -> bool:
-        # TC --> O(N), SC --> O(1)
         indexes = [] # i,j
         for i in range(len(s1)): # going through the string
             if s1[i] != s2[i]: # comparing both the string in the linear manner
