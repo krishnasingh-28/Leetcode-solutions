@@ -1,0 +1,9 @@
+class Solution:
+    # TC --> O(N log N), SC --> O(K) where K is the number of occurrences in the target
+    def targetIndices(self, nums: List[int], target: int) -> List[int]:
+        res = []
+        nums.sort()
+        for i in range(len(nums)):
+            if nums[i] == target:
+                res.append(i)
+        return res
